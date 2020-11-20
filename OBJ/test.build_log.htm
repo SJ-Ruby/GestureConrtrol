@@ -2,42 +2,65 @@
 <body>
 <pre>
 <h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.32.0.0
+Copyright (C) 2020 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Ruby Administrator, xianyoudiandaxue, LIC=76F5U-SVRZ2-63VMB-2G44W-DNA04-G7ASS
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.32.0.0
+Toolchain Path:  D:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.32.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      Segger\JL2CM3.dll V2.99.38.0
+Dialog DLL:      TCM.DLL V1.46.0.0
+ 
 <h2>Project:</h2>
-D:\学习\stm32\4，程序源码\1，标准例程-寄存器版本\1，标准例程-寄存器版本\ALIENTEK MiniSTM32 实验1 跑马灯\USER\test.uvproj
-Project File Date:  03/05/2014
+D:\学习\硬件\light\USER\test.uvprojx
+Project File Date:  11/20/2020
 
 <h2>Output:</h2>
-Build target 'Target 1'
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'D:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'Target 1'
+Note: source file 'RTE\Device\STM32F103RC\startup_stm32f10x_hd.s' - object file renamed from '..\OBJ\startup_stm32f10x_hd.o' to '..\OBJ\startup_stm32f10x_hd_1.o'.
 assembling startup_stm32f10x_hd.s...
-startup_stm32f10x_hd.s: Warning: A3912W: Option 'device' is deprecated.
-compiling test.c...
-test.c: Warning: A3912W: Option 'device' is deprecated.
-test.c: Warning: L3912W: Option 'device' is deprecated.
-Finished: 0 information, 1 warning and 0 error messages.
-test.c: Warning: C3912W: Option 'device' is deprecated.
-compiling delay.c...
-delay.c: Warning: A3912W: Option 'device' is deprecated.
-delay.c: Warning: L3912W: Option 'device' is deprecated.
-Finished: 0 information, 1 warning and 0 error messages.
-delay.c: Warning: C3912W: Option 'device' is deprecated.
-compiling sys.c...
-sys.c: Warning: A3912W: Option 'device' is deprecated.
-sys.c: Warning: L3912W: Option 'device' is deprecated.
-Finished: 0 information, 1 warning and 0 error messages.
-sys.c: Warning: C3912W: Option 'device' is deprecated.
 compiling usart.c...
-usart.c: Warning: A3912W: Option 'device' is deprecated.
-usart.c: Warning: L3912W: Option 'device' is deprecated.
-Finished: 0 information, 1 warning and 0 error messages.
-usart.c: Warning: C3912W: Option 'device' is deprecated.
 compiling led.c...
-led.c: Warning: A3912W: Option 'device' is deprecated.
-led.c: Warning: L3912W: Option 'device' is deprecated.
-Finished: 0 information, 1 warning and 0 error messages.
-led.c: Warning: C3912W: Option 'device' is deprecated.
+compiling delay.c...
+compiling sys.c...
+compiling test.c...
+compiling system_stm32f10x.c...
 linking...
+Program Size: Code=1308 RO-data=336 RW-data=12 ZI-data=1836  
 FromELF: creating hex file...
-"..\OBJ\test.axf" - 0 Error(s), 16 Warning(s).
+"..\OBJ\test.axf" - 0 Error(s), 0 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.2.3.0.pack
+                Keil.STM32F1xx_DFP.2.3.0
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+   * Component: Startup Version: 1.0.0
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\Device\STM32F103RC
+  .\RTE\_Target_1
+  D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: Keil::Device:Startup:1.0.0
+      Source file:   Device\Source\ARM\startup_stm32f10x_hd.s
+      Source file:   Device\Source\system_stm32f10x.c
+      Include file:  RTE_Driver\Config\RTE_Device.h
+      Source file:   Device\Source\ARM\STM32F1xx_OPT.s
+Build Time Elapsed:  00:00:01
 </pre>
 </body>
 </html>
