@@ -1,0 +1,10 @@
+.\objects\ctd_trans.o: ..\HARDWARE\trans\ctd_trans.c
+.\objects\ctd_trans.o: ..\HARDWARE\trans\ctd_trans.h
+.\objects\ctd_trans.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\ctd_trans.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\ctd_trans.o: ..\HARDWARE\usart\usart2.h
+.\objects\ctd_trans.o: ..\SYSTEM\sys\sys.h
+.\objects\ctd_trans.o: ..\SYSTEM\sys\stm32f10x.h
+.\objects\ctd_trans.o: ..\SYSTEM\sys\core_cm3.h
+.\objects\ctd_trans.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\ctd_trans.o: ..\SYSTEM\sys\system_stm32f10x.h
